@@ -5,12 +5,31 @@ public class PlayerController2 : MonoBehaviour
     public int speed = 20;
     void Start()
     {
-        
+       
     }
 
-    // Update is called once per frame
+   
     void Update()
-    {
-        transform.Translate(new Vector3(0, 0, 1) * Time.deltaTime * speed);
+    {//Движение вперед.
+        //
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate( Vector3.forward * Time.deltaTime * speed);
+        }
+        //Движение назад
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(Vector3.back * Time.deltaTime * speed);
+        }
+        //Движение вправо
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector3.right * Time.deltaTime * speed);
+        }
+        //Движение влево
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(Vector3.left * Time.deltaTime * speed);
+        }
     }
 }

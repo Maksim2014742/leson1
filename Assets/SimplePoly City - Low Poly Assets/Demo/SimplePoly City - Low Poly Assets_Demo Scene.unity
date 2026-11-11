@@ -1899,6 +1899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079d29420cff97648a5f4cee4c57bb10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController2
+  speed: 20
 --- !u!1001 &201278379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2813,8 +2814,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340045191}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.002772927, y: -0.94697213, z: 0.32119882, w: 0.0082108965}
-  m_LocalPosition: {x: 113.806175, y: 64.96914, z: 189.453}
+  m_LocalRotation: {x: -0.34834552, y: 0.001985814, z: -0.0007284931, w: -0.93736386}
+  m_LocalPosition: {x: 165.44847, y: 165.36496, z: -92.94861}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
